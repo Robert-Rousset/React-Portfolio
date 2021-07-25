@@ -1,3 +1,5 @@
+import profilePic from "../img/profile-pic.jpg";
+
 export default function AboutMe() {
   return (
     <section id="aboutme">
@@ -16,11 +18,17 @@ export default function AboutMe() {
           </div>
         </div>
         <figure>
-          {/* <img class="profilePic" src="./Images/Profile Pic.jpg" alt="Image of me (Robert Rousset)"> */}
+          <img
+            class="profilePic"
+            src={profilePic}
+            alt="Image of me (Robert Rousset)"
+          />
         </figure>
       </article>
       <div id="resume">
-        {/* <a href="./Assets/Web Development Resume.pdf" target="_blank"><button class="resume">Resume</button></a> */}
+        <a href="./Assets/Web Development Resume.pdf" target="_blank">
+          <button class="resume">Resume</button>
+        </a>
       </div>
     </section>
   );
