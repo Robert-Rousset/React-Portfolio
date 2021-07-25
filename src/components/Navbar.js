@@ -1,13 +1,13 @@
-export default function Navbar() {
+export default function Navbar({ handlePageChange }) {
   return (
     <aside class="navbar">
-      <a href="#aboutme">
+      <a href="#AboutMe" onClick={() => handlePageChange("AboutMe")}>
         <button class="button">About Me</button>
       </a>
-      <a href="#work">
+      <a href="#Projects" onClick={() => handlePageChange("Projects")}>
         <button class="button">My Work</button>
       </a>
-      <a href="#contact">
+      <a href="#Contact" onClick={() => handlePageChange("Contact")}>
         <button class="button">Contact</button>
       </a>
     </aside>

@@ -1,12 +1,12 @@
 import Navbar from "./Navbar";
 
-function Header() {
+function Header({ handlePageChange }) {
   return (
     <div>
       <header>
         <h1>Robert Rousset</h1>
 
-        <Navbar />
+        <Navbar handlePageChange={handlePageChange} />
       </header>
     </div>
   );
