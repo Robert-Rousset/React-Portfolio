@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import "./style.css";
 
 function App() {
@@ -10,13 +11,28 @@ function App() {
 
   const renderPage = () => {
     if (currentPage === "AboutMe") {
-      return <AboutMe />;
+      return (
+        <div>
+          <AboutMe />
+          <Footer />
+        </div>
+      );
     }
     if (currentPage === "Projects") {
-      return <Projects />;
+      return (
+        <div>
+          <Projects />
+          <Footer />
+        </div>
+      );
     }
     if (currentPage === "Contact") {
-      return <Contact />;
+      return (
+        <div>
+          <Contact />
+          <Footer />
+        </div>
+      );
     }
   };
 
@@ -31,5 +47,3 @@ function App() {
 }
 
 export default App;
-
-// className={shrinkHeader === true ? "small-header" : "header"}
