@@ -10,6 +10,9 @@
   margin: 0px;
   scroll-behavior: smooth;
 }
+body {
+  background-image: url(./img/background.jpg);
+}
 
 p {
   font-family: "Montserrat", sans-serif;
