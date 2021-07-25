@@ -1,12 +1,16 @@
 import Navbar from "./Navbar";
 
-function Header({ handlePageChange }) {
+function Header({ currentPage, handlePageChange }) {
   return (
     <div>
-      <header>
-        <h1>Robert Rousset</h1>
+      <header
+        className={typeof currentPage === "string" ? "shrink-header" : "header"}
+      >
+        <h1 className={typeof currentPage === "string" ? "shrink-h1" : ""}>
+          Robert Rousset
+        </h1>
 
-        <Navbar handlePageChange={handlePageChange} />
+        <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
       </header>
     </div>
   );

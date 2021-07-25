@@ -21,21 +21,34 @@ h1 {
   line-height: 100px;
   text-shadow: var(--dark) 0px 0px 3px, var(--dark) 0px 0px 4px;
   color: rgb(255, 255, 255);
+  font-size: 5rem;
   padding-top: 200px;
-  font-size: 10rem;
   font-family: "Allura", cursive;
   text-align: center;
   justify-content: center;
 }
 
-header {
+.shrink-h1 {
+  font-size: 4rem;
+  padding-top: 0px;
+  padding-left: 2rem;
+  transition: all 1s ease-in;
+}
+
+.header {
   position: relative;
   height: 90vh;
+  padding-bottom: 5rem;
+  transition: all 1s ease-in;
+}
+
+.shrink-header {
+  height: 10rem;
+  transition: all 1s ease-in;
 }
 
 .navbar {
-  position: absolute;
-  bottom: 0;
+  padding-bottom: 2rem;
   width: 100%;
   text-align: center;
 }
@@ -52,7 +65,6 @@ h2 {
 
 #aboutme {
   background-color: rgb(239, 241, 243, 0.95);
-  margin-top: 50px;
   padding-top: 20px;
   min-height: fit-content;
   border-top: 5px solid var(--primary);
@@ -289,8 +301,8 @@ a:active {
   color: var(--light);
   font-family: "Montserrat", sans-serif;
   border: none;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
   font-size: 20px;
   border-radius: 20px;
   margin-top: 5px;
@@ -302,8 +314,17 @@ button:hover {
   cursor: pointer;
   padding-left: 20px;
   padding-right: 20px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#active {
+  box-sizing: border-box;
+  background-color: rgb(37, 150, 190, 0.8);
+  cursor: pointer;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 @media screen and (max-width: 810px) {

@@ -1,14 +1,29 @@
-export default function Navbar({ handlePageChange }) {
+export default function Navbar({ currentPage, handlePageChange }) {
   return (
-    <aside class="navbar">
+    <aside className="navbar">
       <a href="#AboutMe" onClick={() => handlePageChange("AboutMe")}>
-        <button class="button">About Me</button>
+        <button
+          className="button"
+          id={currentPage === "AboutMe" ? "active" : ""}
+        >
+          About Me
+        </button>
       </a>
       <a href="#Projects" onClick={() => handlePageChange("Projects")}>
-        <button class="button">My Work</button>
+        <button
+          className="button"
+          id={currentPage === "Projects" ? "active" : ""}
+        >
+          My Work
+        </button>
       </a>
       <a href="#Contact" onClick={() => handlePageChange("Contact")}>
-        <button class="button">Contact</button>
+        <button
+          className="button"
+          id={currentPage === "Contact" ? "active" : ""}
+        >
+          Contact
+        </button>
       </a>
     </aside>
   );

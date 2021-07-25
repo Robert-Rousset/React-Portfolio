@@ -6,7 +6,7 @@ import Contact from "./components/Contact";
 import "./style.css";
 
 function App() {
-  const [currentPage, setCurrentPage] = useState("");
+  const [currentPage, setCurrentPage] = useState();
 
   const renderPage = () => {
     if (currentPage === "AboutMe") {
@@ -24,9 +24,12 @@ function App() {
 
   return (
     <div>
-      <Header handlePageChange={handlePageChange} />,{renderPage()}
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      {renderPage()}
     </div>
   );
 }
 
 export default App;
+
+// className={shrinkHeader === true ? "small-header" : "header"}

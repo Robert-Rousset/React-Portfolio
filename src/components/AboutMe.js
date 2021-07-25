@@ -3,9 +3,9 @@ export default function AboutMe() {
     <section id="aboutme">
       <h2>About Me</h2>
 
-      <article class="aboutme">
-        <div class="card">
-          <div class="bio">
+      <article className="aboutme">
+        <div className="card">
+          <div className="bio">
             <p>
               Hey my name is Rob and im studying to be a Web Developer.
               Throughout my course I have learnt the fundamentals of HTML, CSS
