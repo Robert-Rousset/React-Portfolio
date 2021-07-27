@@ -1,7 +1,7 @@
 import { useState } from "react";
 import TechBlog from "./projects/TechBlog";
-import Project1 from "./projects/Project1";
-import Project2 from "./projects/Project2";
+import MMMFarm from "./projects/MMMFarm";
+import Headquarters from "./projects/Headquarters";
 import TeamProfileGenerator from "./projects/TeamProfileGenerator";
 import WeatherDashboard from "./projects/WeatherDashboard";
 import BudgetTracker from "./projects/BudgetTracker";
@@ -36,14 +36,14 @@ export default function Projects() {
     if (count === 1) {
       return (
         <div>
-          <Project1 />
+          <MMMFarm />
         </div>
       );
     }
     if (count === 2) {
       return (
         <div>
-          <Project2 />
+          <Headquarters />
         </div>
       );
     }
