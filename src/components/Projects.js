@@ -1,34 +1,35 @@
+import TechBlog from "./projects/TechBlog";
+// import Project1 from "./projects/Project1"
+// import Project2 from "./projects/Project2"
+// import TeamProfileGenerator from "./projects/TeamProfileGenerator"
+// import WeatherDashboard from "./projects/WeatherDashboard"
+// import BudgetTracker from "./projects/BudgetTracker"
+
 export default function Projects() {
   return (
     <section id="work">
       <h2>My Work</h2>
 
-      <article class="work">
-        <div class="cardBigger">
-          {/* <a href="https://robert-rousset.github.io/MMM-Farm-App/" target="_blank"><img class="mainProjectImage"
-                        src="./Images/Project Screenshots/Project1-Screenshot.png" alt="woo"></a> */}
-          <p>Project1</p>
+      <article className="work">
+        <p className="previous">
+          <b>&lt;</b>
+        </p>
+        <div className="work-container">
+          <TechBlog />
+
+          {/* <Project1 />
+
+          <Project2 />
+
+          <TeamProfileGenerator />
+
+          <WeatherDashboard />
+
+          <BudgetTracker /> */}
         </div>
-        <div class="workCard">
-          {/* <a href="https://robert-rousset.github.io/Weather-Dashboard/" target="_blank"><img class="otherImage"
-                        src="./Images/Project Screenshots/Weather-Dashboard-Screenshot.png" alt="woo"></a> */}
-          <p>Weather Dashboard</p>
-        </div>
-        <div class="workCard">
-          {/* <a href="https://robert-rousset.github.io/Daily-Planner/" target="_blank"><img class="otherImage"
-                        src="./Images/Project Screenshots/Work-Day-Scheduler.png" alt="woo"></a> */}
-          <p>Work Day Scheduler</p>
-        </div>
-        <div class="workCard">
-          {/* <a href="https://robert-rousset.github.io/Robs-Quiz-Game/" target="_blank"><img class="otherImage"
-                        src="./Images/Project Screenshots/Quiz-Screenshot.png" alt="woo"></a> */}
-          <p>Quiz Game</p>
-        </div>
-        <div class="workCard">
-          {/* <a href="https://robert-rousset.github.io/Password-Generator/" target="_blank"><img class="otherImage"
-                        src="./Images/Project Screenshots/Password-Generator-Screenshot.png" alt="woo"></a> */}
-          <p>Password Generator</p>
-        </div>
+        <p className="next">
+          <b>&gt;</b>
+        </p>
       </article>
     </section>
   );

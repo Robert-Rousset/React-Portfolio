@@ -7,8 +7,8 @@ export default function Contact() {
   return (
     <section id="contact">
       <h2>Contact Me</h2>
-      <article class="contact">
-        <div class="contactImgBox">
+      <article className="contact">
+        <div className="contactImgBox">
           <img src={phone} />
           <a href="https://www.gmail.com" target="_blank">
             <img src={email} />
@@ -24,7 +24,7 @@ export default function Contact() {
           </a>
         </div>
 
-        <div class="contactBox">
+        <div className="contactBox">
           <p>0499992840</p>
 
           <p>

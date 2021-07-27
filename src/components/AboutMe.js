@@ -27,7 +27,7 @@ export default function AboutMe() {
       </article>
       <div id="resume">
         <a href="./Assets/Web Development Resume.pdf" target="_blank">
-          <button class="resume">Resume</button>
+          <button className="resume">Resume</button>
         </a>
       </div>
     </section>
