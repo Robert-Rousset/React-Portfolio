@@ -74,18 +74,18 @@ export default function Projects() {
       <h2>My Work</h2>
 
       <article className="work">
-        {count}
-        <p className="previous">
-          <button className="button" onClick={decrementCount}>
+        <div className="next">
+          <button className="button1" onClick={decrementCount}>
             &lt;
           </button>
-        </p>
+        </div>
+
         <div className="work-container">{renderProject()}</div>
-        <p className="next">
-          <button className="button" onClick={incrementCount}>
+        <div className="next">
+          <button className="button1" onClick={incrementCount}>
             &gt;
           </button>
-        </p>
+        </div>
       </article>
     </section>
   );
