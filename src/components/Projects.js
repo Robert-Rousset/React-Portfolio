@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import techBlogImg from "../img/project-images/tech-blog.png";
 import headquartersImg from "../img/project-images/headquarters.png";
 import MMMFarmImg from "../img/project-images/project1-homepage.png";
@@ -12,7 +12,7 @@ export default function Projects() {
   const style = {
     textDecoration: "none",
   };
-  const [count, setCount] = useState(1);
+  const [count, setCount] = useState(0);
 
   const [projectTitle, setProjectTitle] = useState("Tech Blog");
   const [image, setImage] = useState(techBlogImg);
@@ -25,22 +25,24 @@ export default function Projects() {
   );
 
   function incrementCount() {
-    if (count >= 5) {
+    if (count > 4) {
       setCount(0);
     } else {
       setCount(count + 1);
     }
-    renderProject();
   }
 
   function decrementCount() {
-    if (count <= 0) {
+    if (count < 1) {
       setCount(5);
     } else {
       setCount(count - 1);
     }
-    renderProject();
   }
+
+  useEffect(() => {
+    renderProject();
+  }, [count]);
 
   const renderProject = () => {
     if (count === 0) {
@@ -105,6 +107,7 @@ export default function Projects() {
             <a
               className="overlay"
               href={application}
+              rel="noopener noreferrer"
               target="_blank"
               style={style}
             >

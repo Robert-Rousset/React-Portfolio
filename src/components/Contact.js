@@ -10,15 +10,24 @@ export default function Contact() {
       <article className="contact">
         <div className="contactImgBox">
           <img src={phone} />
-          <a href="https://www.gmail.com" target="_blank">
+          <a
+            href="https://www.gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={email} />
           </a>
-          <a href="https://github.com/Robert-Rousset" target="_blank">
+          <a
+            href="https://github.com/Robert-Rousset"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={github} />
           </a>
           <a
             href="https://www.linkedin.com/in/robert-rousset-3a8300193/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <img src={linkedin} />
           </a>
@@ -28,12 +37,20 @@ export default function Contact() {
           <p>0499992840</p>
 
           <p>
-            <a href="https://www.gmail.com" target="_blank">
+            <a
+              href="https://www.gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               robertrousset94@gmail.com
             </a>
           </p>
           <p>
-            <a href="https://github.com/Robert-Rousset" target="_blank">
+            <a
+              href="https://github.com/Robert-Rousset"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               github.com
             </a>
           </p>
@@ -41,6 +58,7 @@ export default function Contact() {
             <a
               href="https://www.linkedin.com/in/robert-rousset-3a8300193/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               linkedin.com
             </a>

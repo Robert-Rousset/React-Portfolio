@@ -1,4 +1,5 @@
 import profilePic from "../img/profile-pic.jpg";
+import resume from "./resume/Web-Development-Resume.pdf";
 
 export default function AboutMe() {
   return (
@@ -26,7 +27,7 @@ export default function AboutMe() {
         </figure>
       </article>
       <div id="resume">
-        <a href="./Assets/Web Development Resume.pdf" target="_blank">
+        <a href={resume} rel="noopener noreferrer" target="_blank">
           <button className="resume">Resume</button>
         </a>
       </div>
