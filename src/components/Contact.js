@@ -9,27 +9,27 @@ export default function Contact() {
       <h2>Contact Me</h2>
       <article className="contact">
         <div className="contactImgBox">
-          <img src={phone} />
+          <img src={phone} alt="Phone Logo" />
           <a
             href="https://www.gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={email} />
+            <img src={email} alt="Email Logo" />
           </a>
           <a
             href="https://github.com/Robert-Rousset"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={github} />
+            <img src={github} alt="Github Logo" />
           </a>
           <a
             href="https://www.linkedin.com/in/robert-rousset-3a8300193/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={linkedin} />
+            <img src={linkedin} alt="Linkedin Logo" />
           </a>
         </div>
 

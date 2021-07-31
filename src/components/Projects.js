@@ -113,8 +113,8 @@ export default function Projects() {
             >
               <p className="project-text">
                 {projectTitle}
-                <a href={github} target="_blank">
-                  <img src={github2} className="github" />
+                <a href={github} target="_blank" rel="noopener noreferrer">
+                  <img src={github2} className="github" alt="The Github logo" />
                 </a>
               </p>
             </a>

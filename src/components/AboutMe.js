@@ -22,7 +22,7 @@ export default function AboutMe() {
           <img
             class="profilePic"
             src={profilePic}
-            alt="Image of me (Robert Rousset)"
+            alt="Robert Rousset's face"
           />
         </figure>
       </article>
