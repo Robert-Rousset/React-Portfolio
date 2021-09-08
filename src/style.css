@@ -107,9 +107,9 @@ h2 {
 .bio {
   font-family: Arial, Helvetica, sans-serif;
   min-width: 300px;
-  height: 210px;
+  height: 230px;
   background-color: var(--dark);
-  padding: 30px;
+  padding: 20px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   color: white;

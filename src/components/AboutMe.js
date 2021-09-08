@@ -10,11 +10,12 @@ export default function AboutMe() {
         <div className="card">
           <div className="bio">
             <p>
-              Full stack Web Developer with a strong desire to create pleasant
-              and refined online user experiences. With a background in graphic
-              design and music I have a passion to produce artistic and unique
-              web applications. Eager to learn new skills and meet new people! I
-              enjoy video games, music, snowboarding and painting.
+              Full stack Web Developer with a strong desire to create unique and
+              meaningful online user experiences. With a background in graphic
+              design and music I have a passion to produce artistic and creative
+              web applications. Eager to learn new skills and grow as I embark
+              on my journey as a Web Developer! I enjoy video games, music,
+              snowboarding and painting.
             </p>
           </div>
         </div>
