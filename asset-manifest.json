@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.831783d0.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.a189393f.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.a189393f.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.9fb9ac54.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.9fb9ac54.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.872b2f22.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.872b2f22.js.map",
     "static/js/2.1e6b829e.chunk.js": "/react-portfolio/static/js/2.1e6b829e.chunk.js",
@@ -19,9 +19,9 @@
     "static/media/headquarters.cfcc9113.png": "/react-portfolio/static/media/headquarters.cfcc9113.png",
     "static/media/linkedin.cb077110.png": "/react-portfolio/static/media/linkedin.cb077110.png",
     "static/media/phone.016546d4.png": "/react-portfolio/static/media/phone.016546d4.png",
-    "static/media/profile-pic.075a0b81.jpg": "/react-portfolio/static/media/profile-pic.075a0b81.jpg",
+    "static/media/profile-pic.e45b84d9.jpg": "/react-portfolio/static/media/profile-pic.e45b84d9.jpg",
     "static/media/project1-homepage.d8f8a8a7.png": "/react-portfolio/static/media/project1-homepage.d8f8a8a7.png",
-    "static/media/team-profile-gen.2a03ce7b.png": "/react-portfolio/static/media/team-profile-gen.2a03ce7b.png",
+    "static/media/team-profile-gen.8a15ef8f.png": "/react-portfolio/static/media/team-profile-gen.8a15ef8f.png",
     "static/media/tech-blog.4ed82f0d.png": "/react-portfolio/static/media/tech-blog.4ed82f0d.png",
     "static/media/weather-dashboard.214dbf15.png": "/react-portfolio/static/media/weather-dashboard.214dbf15.png"
   },
@@ -29,6 +29,6 @@
     "static/js/runtime-main.872b2f22.js",
     "static/js/2.1e6b829e.chunk.js",
     "static/css/main.831783d0.chunk.css",
-    "static/js/main.a189393f.chunk.js"
+    "static/js/main.9fb9ac54.chunk.js"
   ]
 }
