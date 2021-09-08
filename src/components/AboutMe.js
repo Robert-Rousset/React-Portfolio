@@ -10,11 +10,11 @@ export default function AboutMe() {
         <div className="card">
           <div className="bio">
             <p>
-              Hey my name is Rob and im studying to be a Web Developer.
-              Throughout my course I have learnt the fundamentals of HTML, CSS
-              and Javascript. These skills have made me a proficient Web
-              Developer and a very capable software designer. My Hobbies include
-              Music, Video Games, Art, Snowboarding and Coding!
+              Full stack Web Developer with a strong desire to create pleasant
+              and refined online user experiences. With a background in graphic
+              design and music I have a passion to produce artistic and unique
+              web applications. Eager to learn new skills and meet new people! I
+              enjoy video games, music, snowboarding and painting.
             </p>
           </div>
         </div>
