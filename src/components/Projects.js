@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import immortalKombatImg from "../img/project-images/immortal-kombat.png";
 import techBlogImg from "../img/project-images/tech-blog.png";
 import headquartersImg from "../img/project-images/headquarters.png";
 import MMMFarmImg from "../img/project-images/project1-homepage.png";
@@ -25,7 +26,7 @@ export default function Projects() {
   );
 
   function incrementCount() {
-    if (count > 4) {
+    if (count > 5) {
       setCount(0);
     } else {
       setCount(count + 1);
@@ -34,7 +35,7 @@ export default function Projects() {
 
   function decrementCount() {
     if (count < 1) {
-      setCount(5);
+      setCount(6);
     } else {
       setCount(count - 1);
     }
@@ -46,34 +47,41 @@ export default function Projects() {
 
   const renderProject = () => {
     if (count === 0) {
+      setProjectTitle("Immortal Kombat");
+      setImage(immortalKombatImg);
+      setAlt("Screenshot of my Immortal Kombat Game");
+      setApplication("https://immortal-kombat.herokuapp.com/");
+      setGithub("https://github.com/Robert-Rousset/immortal-kombat");
+    }
+    if (count === 1) {
       setProjectTitle("Tech Blog");
       setImage(techBlogImg);
       setAlt("Image of the Tech Blog create post page");
       setApplication("https://bobbies-tech-blog.herokuapp.com/");
       setGithub("https://github.com/Robert-Rousset/Tech-Blog");
     }
-    if (count === 1) {
+    if (count === 2) {
       setProjectTitle("Headquarters");
       setImage(headquartersImg);
       setAlt("Image of the Headquarters landing page");
       setApplication("https://safe-beach-27101.herokuapp.com/");
       setGithub("https://github.com/Robert-Rousset/headquarters");
     }
-    if (count === 2) {
+    if (count === 3) {
       setProjectTitle("MMM Farm Online Store");
       setImage(MMMFarmImg);
       setAlt("Image of my Project 1 application");
       setApplication("https://robert-rousset.github.io/MMM-Farm-App/");
       setGithub("https://github.com/Robert-Rousset/MMM-Farm-App");
     }
-    if (count === 3) {
+    if (count === 4) {
       setProjectTitle("Weather Dashboard");
       setImage(weatherDashboardImg);
       setAlt("Image of my Weather Dashboard application");
       setApplication("https://robert-rousset.github.io/Weather-Dashboard/");
       setGithub("https://github.com/Robert-Rousset/Weather-Dashboard");
     }
-    if (count === 4) {
+    if (count === 5) {
       setProjectTitle("Team Profile Generator");
       setImage(TeamProfileImg);
       setAlt("Image of the Generated Team Profile");
@@ -82,7 +90,7 @@ export default function Projects() {
       );
       setGithub("https://github.com/Robert-Rousset/Team-Profile-Generator");
     }
-    if (count === 5) {
+    if (count === 6) {
       setProjectTitle("Budget Tracker App");
       setImage(BudgetImg);
       setAlt("Image of my Budget Tracker application");

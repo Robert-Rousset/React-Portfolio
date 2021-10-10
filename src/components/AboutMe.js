@@ -1,5 +1,5 @@
 import profilePic from "../img/profile-pic.jpg";
-import resume from "./resume/Web-Development-Resume.pdf";
+import resume from "./resume/Robert-Rousset-Resume.pdf";
 
 export default function AboutMe() {
   return (
